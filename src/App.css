@@ -1,0 +1,45 @@
+container {
+width: 350px;
+margin: 50px auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+text-align: center;
+font-family: Arial, sans-serif;
+}
+
+h1 {
+color: blue;
+}
+
+form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+label {
+text-align: left;
+}
+
+input {
+padding: 10px;
+border: 1px solid gray;
+border-radius: 5px;
+}
+
+button {
+padding: 10px;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.result {
+margin-top: 20px;
+background-color: #f0f0f0;
+padding: 10px;
+border-radius: 5px;
+}
